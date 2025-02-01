@@ -77,3 +77,16 @@ dn42_peers:
     bgp:
       asn: '4242421855'
       session: 'ipv6'
+
+  - name: 'dn42-hu.srkzdm.systems'
+    contacts: 'https://hexxnet.dn42'
+    wireguard:
+      endpoint_address: 'dn42-hu.srkzdm.systems'
+      endpoint_port: '20225'
+      public_key: 'zajOi1myXS0VZeYdNKcK3W1ROIcGSQtQ1Ie17ZrNxiI='
+    address:
+      ipv6: 'fe80::225:1732'
+      ipv4: '172.22.128.177'
+    bgp:
+      asn: '4242420225'
+      session: 'mp'
